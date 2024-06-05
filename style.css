@@ -1,0 +1,82 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    color: black;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f1d0ec;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+img {
+    width: 45vw;
+    border: solid #2a1070;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    /* border: solid black;
+    width: 1px; */
+}
+
+
+
+/* Estilo do título principal */
+h1 {
+    font-size: 36px;
+    color: palevioletred;
+    border: 2px solid #2a1070;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo do título secundário */
+h2 {
+    text-align: center;
+    color: #2a1070;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo do parágrafo */
+h4 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+    padding-left: 115px;
+    padding-right: 130px;
+}
+
+/* Estilo da quebra de linha */
+br {
+    margin-bottom: 20px;
+}
+
+/* Estilo do elenco */
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border: solid #2a1070;
+}
